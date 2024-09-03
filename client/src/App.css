@@ -1,0 +1,29 @@
+#root {
+  
+  margin: 0;
+  padding: 0rem;
+  text-wrap:wrap;
+  overflow-x: hidden;
+  background-image: linear-gradient(to top, #ffffff 0%, #e3eeff 99%, #e3eeff 100%);
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* App.css or index.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+canvas {
+  display: block; /* Removes padding and margins */
+}
