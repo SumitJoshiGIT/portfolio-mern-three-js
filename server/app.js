@@ -48,7 +48,7 @@ app.post('/contact',async(req,res)=>{
 })
 
 mongoose.connect('mongodb://localhost/myPortfolioDB').
-    then(()=>app.listen(3000,()=>{console.log("started")})).
+    then(()=>app.listen(3001,()=>{console.log("started")})).
     catch(()=>console.log("cannot connect to Mongo  "))
     
 
